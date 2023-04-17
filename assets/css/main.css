@@ -288,7 +288,7 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 4rem 0;
+			margin: 2rem 0;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -335,7 +335,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 auto 4rem auto;
+		margin: 1rem auto 1rem auto;
 		max-width: 80%;
 	}
 
