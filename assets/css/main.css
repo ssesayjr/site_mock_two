@@ -4585,3 +4585,103 @@ input, select, textarea {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+/* PDF */
+.pdfViewer {
+	float: left;
+	height: 750px;
+	width: 100%;
+	width:auto;
+}
+
+.pdfViewer object {
+
+	width: 560px;
+	height: 100%; 
+	padding-left: 2.5%;
+}
+
+
+
+	@media screen and (max-width: 1280px) {
+
+		/* .pdfViewer {
+
+			width: 75%;
+			height: 75%;
+
+		} */
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		/* .pdfViewer {
+			width: 75%;
+			height: 75%;
+	
+		} */
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+	 .pdfViewer {
+			visibility: hidden;
+			display: none;
+			width: 0%;
+		}  
+
+		object #pdf{
+			visibility: hidden;
+			display: none;
+			padding: 0%;
+		}
+	}
+
+
+	/* PDF DIV */
+.pdfDivLeft {
+	float: left; 
+	width: 25%; 
+	height: 750px; 
+	padding-right: 10%; 
+	overflow-y: auto;
+}
+
+	@media screen and (max-width: 1280px) {
+
+		/* .pdfViewer {
+
+			width: 75%;
+			height: 75%;
+
+		} */
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		/* .pdfViewer {
+			width: 75%;
+			height: 75%;
+	
+		} */
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+	 .pdfDivLeft {
+			width:300px;
+			overflow-y: none;
+			margin: auto;
+			top: 50%;
+			left: 50%;
+			text-align: center;
+			padding-left: 15%;
+		}  
+
+
+	}

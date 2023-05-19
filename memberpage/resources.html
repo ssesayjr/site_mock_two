@@ -52,7 +52,7 @@
 		</section>
 		
 
-		<!-- One -->
+			<!-- One -->
 			<section id="two" class="wrapper" style="z-index: 100; background-color: rgba(255,255,255,1); padding-bottom: 0%;">
 				<div id="main" class="wrapper" style="padding: 2.5% 0% 5% 0%;">
 					<div class="inner">
@@ -60,8 +60,8 @@
 							<h2>Documents </h2>
 						</header>
 
-						<div style="height: 800px;">
-							<div style="float: left; width: 25%; height: 750px; padding-right: 10%; overflow-y: auto;">
+						<div style="height: 750px;">
+							<div class="pdfDivLeft">
 								<h5><b>Norms and Agreements</b></h5>
 									<ul>
 										<li>Handout: <a href="#" onclick="return changePDF('./gallery/docs/handouts/NormsandAgreements.pdf')"> 1.1 Norms and Agreements </a> </li>
@@ -100,10 +100,10 @@
 
 							</div>
 
-							
-								<object id="pdfViewer" data="./gallery/docs/handouts/NormsandAgreements.pdf" type="application/pdf" width="75%" height="100%" style="padding-left: 2.5%;">
+							<div class="pdfViewer">
+								<object id="pdf" data="./gallery/docs/handouts/NormsandAgreements.pdf" type="application/pdf">
 								</object>
-							
+							</div>
 							
 					</div>
 
