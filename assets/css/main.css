@@ -2050,6 +2050,8 @@ input, select, textarea {
 		flex-wrap: wrap;
 		width: 100%;
 		margin: -2rem auto 2rem auto;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 18px;
 	}
 
 		form.elements {
@@ -3385,6 +3387,13 @@ input, select, textarea {
 		width: 80rem;
 	}
 
+	.inner > .content {
+		margin: 0 auto;
+		max-width: calc(100% - 10rem);
+		width: 80rem;
+		
+	}
+
 		.inner.narrow {
 			width: 45.71429rem;
 		}
@@ -4312,7 +4321,17 @@ input, select, textarea {
 						font-size: 3rem;
 					}
 
+					#banner > .svg > .inner h1 {
+						font-size: 3rem;
+					}
+
+
 					#banner > .inner p {
+						font-size: 1.25rem;
+					}
+
+					
+					#banner > .svg > .inner p {
 						font-size: 1.25rem;
 					}
 
@@ -4373,9 +4392,10 @@ input, select, textarea {
 					}
 
 					#banner > .inner p {
-						font-size: 1rem;
+						font-size: 1.55rem;
 					}
 
+				
 					#banner > .inner .icon {
 						margin-bottom: 2rem;
 					}
