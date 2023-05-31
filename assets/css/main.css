@@ -4289,8 +4289,10 @@ input, select, textarea {
 
 			#banner {
 				background-attachment: scroll;
-				height: 80vh;
+				height: 30vh;
 				min-height: 35rem;
+				text-align: left bottom;
+
 			}
 			#bannerMini {
 				background-attachment: scroll;
@@ -4356,6 +4358,8 @@ input, select, textarea {
 			#banner {
 				height: auto;
 				min-height: 38rem;
+				text-align: left bottom;
+
 			}
 
 			#bannerMini {
