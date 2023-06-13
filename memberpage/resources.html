@@ -62,33 +62,36 @@
 
 						<div style="height: 750px;">
 							<div class="pdfDivLeft">
-								<h5><b>Norms and Agreements</b></h5>
+								<h5><b>Session One</b></h5>
 									<ul>
-										<li>Handout: <a href="#" onclick="return changePDF('./gallery/docs/handouts/NormsandAgreements.pdf')"> 1.1 Norms and Agreements </a> </li>
+										<li> 1.1 <a href="#" onclick="return changePDF('./gallery/docs/session_1/Norms and Agreements 1.1 .pdf')"> Group Norms </a> </li>
+										<li> 1.2 <a href="#" onclick="return changePDF('./gallery/docs/session_1/Social Identities A_D 1.2 (BRS).pdf')"> Social Positions: Advantaged Disadvantaged (BRS) </a> </li>
+										<li> 1.2 <a href="#" onclick="return changePDF('./gallery/docs/session_1/Social Positions A_D  1.2 (BRSiJC).pdf')">  Social Positions: Advantaged Disadvantaged (BRSiJC) </a> </li>
+										<li> 1.3 <a href="#" onclick="return changePDF('./gallery/docs/session_1/Intersecting Identities 1.3.pdf')"> Intersecting Identities  </a> </li>
 									</ul> 
 
-								<h5><b>Privileged Marginalized </b></h5>
+								<h5><b>Session Two </b></h5>
 									<ul>
-										<li>Handout: <a href="#" onclick="return changePDF('./gallery/docs/handouts/PrivilegedMarginalized1.2forJewishorganizations.pdf')"> 1.2 Privileged Marginalized</a></li>
-										<li>Worksheet: <a href="#" onclick="return changePDF('./gallery/docs/worksheet/SocialPostionsPrivilege.pdf')"> 1.2 Social Positions Privileged</a></li>
+										<li> 2.1 <a href="#" onclick="return changePDF('./gallery/docs/session_2/Timeline 2.1.pdf')"> Timeline</a></li>
+										<li> 2.2 <a href="#" onclick="return changePDF('./gallery/docs/session_2/Racial Segregation 2.1.pdf')"> Racial Segregation in My Life</a></li>
 									</ul>
 
-								<h5><b>Intersecting Identities </b></h5>
+								<h5><b>Session Three </b></h5>
 									<ul>
-										<li>Worksheet: <a href="#" onclick="return changePDF('./gallery/docs/worksheet/Intersecting Identities 1.3.pdf')"> 1.3 Intersecting Identities </a></li>
+										<li> 3.1 <a href="#" onclick="return changePDF('./gallery/docs/session_3/Microaggression and Racist Abuse Handout 3.1.pdf')"> Understanding Microaggression and Racial Abuse </a></li>
 									</ul>
 
-								<h5><b>Racial Segregation </b></h5>
+								<h5><b>Session Four</b></h5>
 									<ul>
-										<li>Worksheet: <a href="#" onclick="return changePDF('./gallery/docs/worksheet/RacialSegregation2.1.pdf')">2.1 Racial Segregation </a></li>
+										<li> 4.1 <a href="#" onclick="return changePDF('./gallery/docs/session_4/Racial Identity Narrative 4.1.pdf')"> Racial Identity Narrative</a></li>
 									</ul>
 									
-								<h5><b>Microaggression / Racist Abuse </b></h5>
+								<h5><b>Session Six </b></h5>
 									<ul>
-										<li>Handout: <a href="#" onclick="return changePDF('./gallery/docs/handouts/MicroaggressionHandout 3.1.pdf')"> Microagression and Racist Abuse </a></li>
+										<li> 6.1 <a href="#" onclick="return changePDF('./gallery/docs/session_6/White Fragility and Racial Stamina 6.1 .pdf')"> White Fragility and Racial Stamina  </a></li>
 									</ul>
 
-								<h5><b>Racial Identity</b></h5>
+								<!-- <h5><b>Racial Identity</b></h5>
 									<ul>
 										<li>Worksheet: <a href="#" onclick="return changePDF('./gallery/docs/worksheet/RacialIdentityNarrative4.1.pdf')">4.1 Racial Identity Narrative</a></li>
 									</ul>
@@ -96,12 +99,12 @@
 								<h5><b>BRS Timeline</b></h5>
 									<ul>
 										<li>Handout: <a href="#" onclick="return changePDF('./gallery/docs/handouts/BRSTimeline.pdf')"> BRS Timeline</a></li>
-									</ul>
+									</ul> -->
 
 							</div>
 
 							<div class="pdfViewer">
-								<object id="pdf" data="./gallery/docs/handouts/NormsandAgreements.pdf" type="application/pdf">
+								<object id="pdf" data="./gallery/docs/session_1/Norms and Agreements 1.1 .pdf" type="application/pdf">
 								</object>
 							</div>
 							
@@ -164,7 +167,7 @@
 
 		<script>
 			function changePDF(linkref) {
-				document.getElementById('pdfViewer').data = linkref; 
+				document.getElementById('pdf').data = linkref; 
 
 			}
 
