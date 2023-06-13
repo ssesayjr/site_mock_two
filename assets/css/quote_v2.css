@@ -1,0 +1,60 @@
+
+  .fixedwidth{
+    background-color: rgba(68,104,202,.75);
+    width: 50%;
+    margin: auto;
+    min-width: 580px;
+  }
+  /*-----------------------------------------------SRM SLIDER--*/
+  #quote-slider{
+      height: 250px;
+      padding: 30px 0 0 18px;
+      box-sizing: border-box;
+      position: relative;
+      max-width:100%;
+      overflow: hidden;
+  }
+  .quote{
+      position: relative;
+  }
+  .slider-quote {
+      transition: 1.5s;
+      color: #fff;
+      position:absolute;
+      top: 0;
+      left: -200%;
+      font-size: 16px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      line-height: 1.25;
+      min-width: 100%;
+  }
+  .slider-quote span{
+      font-size: 12px;
+      font-style: italic;
+  }
+
+  .slider-quote h1{
+    font-size: 22px;
+  }
+  .controls {
+      padding: 0 3px;
+      position: absolute;
+      top: 135px;
+  }
+  .quote-control{
+      margin-top: 75px;
+      display: inline-block;
+      height: 8px;
+      width: 8px;
+      background-color: transparent;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      margin-right: 8px;
+  }
+  .selected{
+      background-color: rgba(2555,255,255,.3)
+  }
+  .in-focus{
+      transition: 3.5s;
+      left:0;
+  }
