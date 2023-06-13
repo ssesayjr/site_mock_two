@@ -4615,13 +4615,13 @@ input, select, textarea {
 .pdfViewer {
 	float: left;
 	height: 750px;
-	width: 100%;
+	width: 250px;
 	width:auto;
 }
 
 .pdfViewer object {
 
-	width: 560px;
+	width: 550px;
 	height: 100%; 
 	padding-left: 2.5%;
 }
@@ -4668,9 +4668,10 @@ input, select, textarea {
 	/* PDF DIV */
 .pdfDivLeft {
 	float: left; 
-	width: 25%; 
+	width: 30%; 
 	height: 750px; 
-	padding-right: 10%; 
+	padding-right: .5%; 
+	padding-top: 5%;
 	overflow-y: auto;
 }
 
