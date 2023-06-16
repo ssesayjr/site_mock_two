@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "deitralou24907.domaincommysql.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "TransformForEquity",
+            "database": "member_portal",
+            "username": "dreiser",
+            "connectionTimeout": 20000
+        }
+    ]
+}
