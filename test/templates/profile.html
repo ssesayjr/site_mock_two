@@ -79,6 +79,14 @@
               </div>
             </section>
 
+            <section class="wrapper" style="background-color: white;transform: (0,95%); clear: both;">
+                <div class="inner" style="padding-left: 2.5%; padding-right: 2.5%;">
+                <a href="{{url_for('sqltable')}}">
+                  <input style="margin-left: auto;margin-right: auto;" type="submit" class="button large primary"  value="View User Accounts">
+                </a>
+              </div>
+            </section>
+
             <!-- Table Information  -->
               
             <section class="wrapper" style="background-color: white;transform: (0,95%); clear: both;">
@@ -89,7 +97,6 @@
                           
                         {% endblock %}
 
-                </table>
             </div>
             </section>
          
@@ -98,51 +105,45 @@
             <!-- One -->
             <section class ="wrapper" style="background-color: white;transform: (0,95%);">
               <div class="inner">
-              <form class="mt-5 mb-5">
-              
-                <div class="form-group" style="padding-left: 2.5%; padding-right: 2.5%;">
-                  <label for="exampleInputEmail1">Account Email Address<span>*</span></label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
-        
-                <div class="form-group" style="padding-left: 2.5%; padding-right: 2.5%;">
-                  <label for="exampleInputName">Account ID</label>
-                  <input type="text" class="form-control" id="accountID" aria-describedby="account ID" placeholder="Enter your First Name">
-                </div>
-                
-                <div class="form-group" style="padding-left: 2.5%; padding-right: 2.5%;">
-                  <label for="exampleInputName">Old Password</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="" placeholder="Enter original password">
+            <form class="mt-5 mb-5" action="{{ url_for('updateAccount')}}" method="post">
+                <div class="field half">
+
+                  <div class="form-group" style="padding-left: 2.5%; padding-right: 2.5%;">
+                    <label>Account Email Address</label>
+                    <input id="email" name="email" type="email" class="form-control"  placeholder="Enter email">
+                  </div>
                 </div>
 
-                <div class="form-group" style="padding-left: 2.5%; padding-right: 2.5%;">
-                  <label for="exampleInputName">New Password</label>
-                  <input type="text" class="form-control" id="new_password" aria-describedby="" placeholder="Enter new password">
-                </div>
+                <div class="field half">
+                  <label>Account Status</label>
+                  <select name="acctStatus" id="acctStatus" for="acctStatus">
+                    <option value="">- Select One -</option>
+                    <option value="1">Active (1)</option>
+                    <option value="0">Inactive (0)</option>
+                  </select>
+                  
+                </div>				
+                <section id="two" class="wrapper" style="z-index: 100; background-color: rgba(255,255,255,1); padding-bottom: 0%;">
+                  <div id="main" class="wrapper">
+                      <div class="inner">
+      
+      
+                              <div >
 
-                <div class="form-group" style="padding-left: 2.5%; padding-right: 2.5%;">
-                  <label for="exampleInputName">Account Status</label>
-                  <input type="text" class="form-control" id="acctStatus" aria-describedby="" placeholder="Account Status">
-                </div>
+                                  <input style="margin-left: auto;margin-right: auto;" type="submit" class="button large primary"  value="Update Account Details">
+                                    {{msg}}
+                              </div>
+                          </div>
+                  </div>
+              </section>
+
 
               </form>
             </div>
             </section>
 
 
-            <section id="two" class="wrapper" style="z-index: 100; background-color: rgba(255,255,255,1); padding-bottom: 0%;">
-                <div id="main" class="wrapper" style="padding: 2.5% 0% 5% 0%;">
-                    <div class="inner">
-    
-    
-                            <div >
-                                <ul class="actions stacked">
-                                    <li style="margin-left: auto;margin-right: auto;"><a href="#" onclick="return false" class="button large primary"><i class="fa fa-save mr-2"></i> Update Account Details</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                </div>
-            </section>
+       
     
 
 
