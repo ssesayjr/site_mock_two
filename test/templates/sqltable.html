@@ -1,0 +1,28 @@
+{% extends 'profile.html' %}
+
+
+{% block content %}
+    <table style="background-color: white;">
+
+        <tr>
+            <td>IDusers</td>
+            <td>Firstname</td>
+            <td>Lastname</td>
+            <td>Email</td>
+            <td>Password</td>
+            <td>Date_created</td>
+            <td>Active</td>
+        </tr>
+
+        <tr>
+            <td>{{ sqltab[1]['idusers']}}</td>
+            <td>{{ sqltab[1]['firstname']}}</td>
+            <td>{{ sqltab[1]['lastname']}}</td>
+            <td>{{ sqltab[1]['email']}}</td>
+            <td>{{ sqltab[1]['password']}}</td>
+            <td>{{ sqltab[1]['date_created']}}</td>
+            <td>{{ sqltab[1]['active']}}</td>
+        </tr>
+
+    </table>
+{% endblock %}
