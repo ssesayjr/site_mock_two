@@ -1,0 +1,158 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Transform for Equity | An Antiracist Repair Group | Maryland</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="shortcut icon" href="../images/butterfly.png">
+
+	</head>
+	<body class="is-preload">
+	
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="../index.html">Transform <span>For Equity</span> <img src="../images/butterfly.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="../memberpage/home.html">Home</a></li>
+				<li><a href="./resources.html">Resources</a></li>
+				<li><a href="./profile.html" style="font-weight: 300;"><i class="fas fa-user" style="color: white; padding-right: 1px;"></i>&nbsp;Profile</a></li>
+				<li><a href="../login/login.html" style="font-weight: 300;"><i class="fas fa-sign-out-alt" style="color: white; padding-right: 1px;"></i>&nbsp;Logout</a></li>
+
+			</ul>
+		</nav>
+
+		<!-- Banner -->
+		<section>
+			<div id="bannerMini" style="text-align: center;">
+				<div class="svgMini">
+						 <object style="width: 100%;" data="../images/T4E_banner_v2.svg"></object> 
+				</div>
+						<div class="inner">
+							<header class="heading major">
+								<h1>Members Page</h1>
+							</header>
+						</div>
+		
+			</div>
+		</section>
+		
+
+		<!-- One -->
+			<section id="two" class="wrapper" style="z-index: 100; background-color: rgba(255,255,255,1); padding-bottom: 0%;">
+				<div id="main" class="wrapper" style="padding: 2.5% 0% 5% 0%;">
+					<div class="inner">
+						<header class="heading major">
+							<h2>General Information</h2>
+						</header>
+
+						<div style="overflow: auto;">
+							<div  style="float: center; padding-bottom: 1%;" >
+								<img src="../images/dsh_article.png" height="425px"/>
+							</div>
+
+						</div>
+
+						<p style="font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+							The Transform For Equity Member Portal is a self-service portal that offers online member services to Transform For Equity (TFE) members in Building Racial Stamina.						
+						</p>
+
+						<p style="font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Click on the resources link to access our course material.						
+						</p>
+
+
+							<div >
+								<ul class="actions stacked">
+									<li style="margin-left: auto;margin-right: auto;"><a href="./resources.html" class="button large primary">Course Material</a></li>
+								</ul>
+							</div>
+						</div>
+				</div>
+			</section>
+
+		<!-- BWB Banner Message -->
+		<section id ="build" style="z-index: 100; background-color: rgba(255,255,255,1);">
+			<div class="wrapper style1"  style="padding-bottom: 1.5%">
+				<div class="inner";>
+					<div class="features">
+						<div class="feature">
+							<header class="heading">
+								<h2>Believe</h2>
+							</header>
+							<p>While growth requires discomfort, it also requires care and dignity.</p><br>
+						</div>
+						<div class="feature">
+							<header class="heading">
+								<h2>Work</h2>
+							</header>
+							<p>The work of being antiracist has a beginning, it does not have an end.</p><br>
+
+						</div>
+						<div class="feature">
+							<header class="heading">
+								<h2>Build</h2>
+							</header>
+							<p>The ripples of antiracist change can positively impact entire communities.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="http://www.linkedin.com/in/deitra-reiser-1aa71117" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.instagram.com/transformforequity/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://goo.gl/maps/wJLPuEocsqHvUBvR9" class="icon solid fa-map-marker-alt"><span class="label">Location</span></a></li>
+					<li><a href="tel:+16672021586" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
+					<li><a href="mailto:info@transformforequity.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				&copy; Transform For Equity - All rights reserved. 
+			</div>
+			<div>
+				<img src="../images/butterfly.png" style="vertical-align: text-bottom; float: center;" height="30px"/>
+			</div>
+		</section>
+
+
+		<!-- Scripts -->
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/script.js"></script>
+
+
+
+	</body>
+</html>
