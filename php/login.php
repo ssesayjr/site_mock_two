@@ -35,7 +35,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate credentials
     if(empty($username_err) && empty($password_err)){
         // Prepare a select statement
-        $sql = "SELECT id, email, status password FROM users WHERE email = ?";
+        $sql = "SELECT idusers, email, active, password FROM users WHERE email = ?";
         
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
@@ -106,13 +106,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <!-- Icon Font -->
     <link rel="stylesheet" href="fonts/ionicons/css/ionicons.css">
 	<!-- Text Font -->
-    <link rel="stylesheet" href="./assets/fonts.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!-- Normal style CSS -->
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./css/style.css">
     <!-- Normal media CSS -->
-	<link rel="stylesheet" href="./assets/media.css">
+	<link rel="stylesheet" href="./css/media.css">
 
 </head>
 <body class="is-preload">
@@ -202,18 +202,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 	<!-- JS File -->
-	<script src="../assets/js/breakpoints.min.js"></script>
-	<script src="../assets/js/browser.min.js"></script>
-	<script src="../assets/js/jquery.min.js"></script>
-	<script src="../assets/js/util.js"></script>
-	<script src="../assets/js/main.js"></script>
+	<script src="./js/breakpoints.min.js"></script>
+	<script src="./js/browser.min.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/util.js"></script>
+	<script src="./js/main.js"></script>
 
 	<script type="text/javascript" src="./js/main.js"></script>
 	<script src="./js/modernizr.js"></script>
 	<script type="text/javascript" src="./js/jquery.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.js"></script>
 	<script src="./js/velocity.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
 
 
 	</body>

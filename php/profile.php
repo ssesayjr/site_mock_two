@@ -2,7 +2,7 @@
 // Initialize the session
 //session_start();
 
-$link2 = mysqli_connect('192.168.137.1', 'duser', 'Leumas88!', 'test',3306);
+$link2 = mysqli_connect('deitralou24907.domaincommysql.com', 'dreiser', 'T4Equity2023!', 'member_portal',3306);
 
 
 /* Attempt to connect to MySQL database */
@@ -40,7 +40,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $param_accStatus = $acctStatus; 
                         
 
-    $second_query="UPDATE users SET status = ? WHERE email =?";
+    $second_query="UPDATE users SET active = ? WHERE email =?";
     
     // WOrking PRepare
     // if ($stmt=mysqli_prepare($link2,$second_query)){
@@ -92,7 +92,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="../index.html">Transform <span>For Equity</span> <img src="../assets/butterfly_icon.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
+				<a class="logo" href="../index.shtml">Transform <span>For Equity</span> <img src="./assets/butterfly_icon.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
@@ -114,7 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		<section>
 			<div id="bannerMini" style="text-align: center;">
 				<div class="svgMini">
-						 <object style="width: 100%;" data="../static/T4E_banner_v2.svg"></object> 
+						 <object style="width: 100%;" data="./static/T4E_banner_v2.svg"></object> 
 				</div>
 						<div class="inner">
 							<header class="heading major">
@@ -134,7 +134,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <!-- single sentence description -->
               
                     <div class="uxa-user-avatar">
-                      <img src="../static/profile_pic.jpg" alt="User avatar">
+                      <img src="./static/profile_pic.jpg" alt="User avatar">
                     </div>
                     
                               
@@ -146,34 +146,34 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
             <!-- Table Information  -->
               
-            <section class="wrapper" style="background-color: white;transform: (0,95%); clear: both;">
+            <section class="wrapper" style="background-color: white;transform: (0,95%); clear: both; position:relative;">
               <div class="inner">
       
 		<?php 
-                $username = "duser"; 
-                $password = "Leumas88!"; 
-                $database = "test"; 
-                $mysqli = new mysqli("192.168.137.1", $username, $password, $database); 
+                $username = "dreiser"; 
+                $password = "T4Equity2023!"; 
+                $database = "member_portal"; 
+                $mysqli = new mysqli("deitralou24907.domaincommysql.com", $username, $password, $database); 
                 $query = "SELECT * FROM users";
 
 
                 echo '<table border="0" cellspacing="2" cellpadding="2"> 
                     <tr> 
-                        <td> <font face="Arial">Value1</font> </td> 
-                        <td> <font face="Arial">Value2</font> </td> 
-                        <td> <font face="Arial">Value3</font> </td> 
-                        <td> <font face="Arial">Value4</font> </td> 
-                        <td> <font face="Arial">Value5</font> </td> 
+                        <td> <font face="Arial">ID</font> </td> 
+                        <td> <font face="Arial">Email</font> </td> 
+                        <td> <font face="Arial">Password</font> </td> 
+                        <td> <font face="Arial">Date Created</font> </td> 
+                        <td> <font face="Arial">Status</font> </td> 
 
                     </tr>';
 
                 if ($result = $mysqli->query($query)) {
                     while ($row = $result->fetch_assoc()) {
-                        $field1name = $row["id"];
+                        $field1name = $row["idusers"];
                         $field2name = $row["email"];
                         $field3name = $row["password"];
-                        $field4name = $row["created_at"];
-                        $field5name = $row["status"];
+                        $field4name = $row["date_created"];
+                        $field5name = $row["active"];
 
 
                         echo '<tr> 
@@ -187,6 +187,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     }
                     $result->free();
                 } 
+
+                echo"</table>"
                 ?>
 	
             </div>
@@ -202,10 +204,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <form class="mt-5 mb-5" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                 <div class="field half">
 
-                  <div class="form-group" style="padding-left: 2.5%; padding-right: 2.5%;">
                     <label>Account Email Address</label>
                     <input name="username" id="username" for="username" type="email" class="form-control"  placeholder="Enter email">
-                  </div>
                 </div>
 
                 <div class="field half">
@@ -298,17 +298,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     
 		<!-- Scripts -->
-        <script src="../static/browser.min.js"></script>
-        <script src="../static/breakpoints.min.js"></script>
-        <script src="../static/util.js"></script>
-        <script src="../static/main.js"></script>
-        <script src="../static/script.js"></script>
+        <script src="./js/browser.min.js"></script>
+        <script src="./js/breakpoints.min.js"></script>
+        <script src="./js/util.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/script.js"></script>
 
-        <script type="text/javascript" src="../static/main2.js"></script>
-        <script src="../static/modernizr.js"></script>
-        <script type="text/javascript" src="../static/jquery.js"></script>
-        <script type="text/javascript" src="../static/bootstrap.js"></script>
-        <script src="../static/velocity.min.js"></script>
 
     </body>
 </html>

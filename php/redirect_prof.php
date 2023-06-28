@@ -7,7 +7,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true && $_SESSION["
     header("location: profile.php");
     
 } else {
-    header("location: gen_profile.php");
+    header("location: home.php");
 }
 
 exit;

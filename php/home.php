@@ -33,7 +33,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="../index.html">Transform <span>For Equity</span> <img src="./assets/butterfly.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
+				<a class="logo" href="../index.shtml">Transform <span>For Equity</span> <img src="./assets/butterfly.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
@@ -91,7 +91,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 							<div >
 								<ul class="actions stacked">
-									<li style="margin-left: auto;margin-right: auto;"><a href="./resources.html" class="button large primary">Course Material</a></li>
+									<li style="margin-left: auto;margin-right: auto;"><a href="./redirect_res.php" class="button large primary">Course Material</a></li>
 								</ul>
 							</div>
 						</div>
@@ -148,11 +148,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 
 		<!-- Scripts -->
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
-			<script src="../assets/js/script.js"></script>
+			<script src="./js/browser.min.js"></script>
+			<script src="./js/breakpoints.min.js"></script>
+			<script src="./js/util.js"></script>
+			<script src="./js/main.js"></script>
+			<script src="./js/script.js"></script>
 
 
 

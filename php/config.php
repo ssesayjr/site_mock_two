@@ -2,13 +2,8 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', '192.168.137.1');
-define('DB_USERNAME', 'duser');
-define('DB_PASSWORD', 'Leumas88!');
-define('DB_NAME', 'test');
- 
-/* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME,3306);
+$link = mysqli_connect('deitralou24907.domaincommysql.com', 'dreiser', 'T4Equity2023!', 'member_portal'); 
+
  
 // Check connection
 if($link === false){
@@ -19,3 +14,5 @@ if($link === false){
 $query = "SELECT * FROM users"; 
 
 ?>
+
+

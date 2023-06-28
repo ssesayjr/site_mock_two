@@ -1,3 +1,19 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+
+	
+}
+
+
+
+?>
+
 <!DOCTYPE HTML>
 
 <html>
@@ -150,7 +166,7 @@
 		<section id="footer">
 			<div class="inner">
 				<ul class="icons">
-					<li><a href="http://www.linkedin.com/in/deitra-reiser-1aa71117" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.linkedin.com/in/deitra-reiser-1aa71117" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					<li><a href="https://www.instagram.com/transformforequity/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 					<li><a href="https://goo.gl/maps/wJLPuEocsqHvUBvR9" class="icon solid fa-map-marker-alt"><span class="label">Location</span></a></li>
 					<li><a href="tel:+16672021586" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
@@ -167,10 +183,10 @@
 
 
 		<!-- Scripts -->
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
-			<script src="../assets/js/script.js"></script>
+			<script src="./js/browser.min.js"></script>
+			<script src="./js/breakpoints.min.js"></script>
+			<script src="./js/util.js"></script>
+			<script src="./js/main.js"></script>
+			<script src="./js/script.js"></script>
 	</body>
 </html>
