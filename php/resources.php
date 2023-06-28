@@ -1,16 +1,3 @@
-<?php
-// Initialize the session
-session_start();
- 
-// Check if the user is logged in, if not then redirect him to login page
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    exit;
-
-	
-}
-?>
-
 <!DOCTYPE HTML>
 
 <html>
@@ -58,7 +45,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 				</div>
 						<div class="inner">
 							<header class="heading major">
-								<h1>Members Page</h1>
+								<h1>Course Material</h1>
 							</header>
 						</div>
 		
@@ -66,34 +53,66 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		</section>
 		
 
-		<!-- One -->
+			<!-- One -->
 			<section id="two" class="wrapper" style="z-index: 100; background-color: rgba(255,255,255,1); padding-bottom: 0%;">
 				<div id="main" class="wrapper" style="padding: 2.5% 0% 5% 0%;">
 					<div class="inner">
 						<header class="heading major">
-							<h2>General Information</h2>
+							<h2>Documents </h2>
 						</header>
 
-						<div style="overflow: auto;">
-							<div  style="float: center; padding-bottom: 1%;" >
-								<img src="./assets/dsh_article.png" height="425px"/>
+						<div style="height: 750px;">
+							<div class="pdfDivLeft">
+								<h5><b>Session One</b></h5>
+									<ul>
+										<li> 1.1 <a href="#" onclick="return changePDF('./assets/Norms and Agreements 1.1 .pdf')"> Group Norms </a> </li>
+										<li> 1.2 <a href="#" onclick="return changePDF('./assets/Social Identities A_D 1.2 (BRS).pdf')"> Social Positions: Advantaged Disadvantaged (BRS) </a> </li>
+										<li> 1.2 <a href="#" onclick="return changePDF('./assets/Social Positions A_D  1.2 (BRSiJC).pdf')">  Social Positions: Advantaged Disadvantaged (BRSiJC) </a> </li>
+										<li> 1.3 <a href="#" onclick="return changePDF('./assets/Intersecting Identities 1.3.pdf')"> Intersecting Identities  </a> </li>
+									</ul> 
+
+								<h5><b>Session Two </b></h5>
+									<ul>
+										<li> 2.1 <a href="#" onclick="return changePDF('./assets/Timeline 2.1.pdf')"> Timeline</a></li>
+										<li> 2.2 <a href="#" onclick="return changePDF('./assets/Racial Segregation 2.1.pdf')"> Racial Segregation in My Life</a></li>
+									</ul>
+
+								<h5><b>Session Three </b></h5>
+									<ul>
+										<li> 3.1 <a href="#" onclick="return changePDF('./assets/Microaggression and Racist Abuse Handout 3.1.pdf')"> Understanding Microaggression and Racial Abuse </a></li>
+									</ul>
+
+								<h5><b>Session Four</b></h5>
+									<ul>
+										<li> 4.1 <a href="#" onclick="return changePDF('./assets/Racial Identity Narrative 4.1.pdf')"> Racial Identity Narrative</a></li>
+									</ul>
+									
+								<h5><b>Session Six </b></h5>
+									<ul>
+										<li> 6.1 <a href="#" onclick="return changePDF('./assets/White Fragility and Racial Stamina 6.1 .pdf')"> White Fragility and Racial Stamina  </a></li>
+									</ul>
+
+								<!-- 
+								<h5><b>Racial Identity</b></h5>
+									<ul>
+										<li>Worksheet: <a href="#" onclick="return changePDF('./gallery/docs/worksheet/RacialIdentityNarrative4.1.pdf')">4.1 Racial Identity Narrative</a></li>
+									</ul>
+
+								<h5><b>BRS Timeline</b></h5>
+									<ul>
+										<li>Handout: <a href="#" onclick="return changePDF('./gallery/docs/handouts/BRSTimeline.pdf')"> BRS Timeline</a></li>
+									</ul> -->
+
 							</div>
 
-						</div>
-
-						<p style="font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-							The Transform For Equity Member Portal is a self-service portal that offers online member services to Transform For Equity (TFE) members in Building Racial Stamina.						
-						</p>
-
-						<p style="font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Click on the resources link to access our course material.						
-						</p>
-
-
-							<div >
-								<ul class="actions stacked">
-									<li style="margin-left: auto;margin-right: auto;"><a href="./resources.html" class="button large primary">Course Material</a></li>
-								</ul>
+							<div class="pdfViewer">
+								<object id="pdf" data="./assets/Norms and Agreements 1.1 .pdf" type="application/pdf">
+								</object>
 							</div>
+							
+					</div>
+
+
 						</div>
 				</div>
 			</section>
@@ -153,8 +172,5 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 			<script src="../assets/js/util.js"></script>
 			<script src="../assets/js/main.js"></script>
 			<script src="../assets/js/script.js"></script>
-
-
-
 	</body>
 </html>
