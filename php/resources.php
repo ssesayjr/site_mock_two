@@ -10,8 +10,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	
 }
 
-
-
 ?>
 
 <!DOCTYPE HTML>
@@ -26,6 +24,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		<link rel="stylesheet" href="./assets/main.css" />
 		<link rel="shortcut icon" href="./assets/butterfly.png">
 
+		<script  type="text/javascript">
+			function changePDF(linkref) {
+				document.getElementById('pdf').data = linkref; 
+
+			}
+
+		</script>
+	
+
 	</head>
 	<body class="is-preload">
 	
@@ -33,6 +40,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
 
 		<!-- Header -->
 			<header id="header">
@@ -81,9 +89,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 							<div class="pdfDivLeft">
 								<h5><b>Session One</b></h5>
 									<ul>
-										<li> 1.1 <a href="#" onclick="return changePDF('./assets/Norms and Agreements 1.1 .pdf')"> Group Norms </a> </li>
-										<li> 1.2 <a href="#" onclick="return changePDF('./assets/Social Identities A_D 1.2 (BRS).pdf')"> Social Positions: Advantaged Disadvantaged (BRS) </a> </li>
-										<li> 1.2 <a href="#" onclick="return changePDF('./assets/Social Positions A_D  1.2 (BRSiJC).pdf')">  Social Positions: Advantaged Disadvantaged (BRSiJC) </a> </li>
+										<li> 1.1 <a href="" onclick="return changePDF('./assets/Norms and Agreements 1.1 .pdf')"> Group Norms </a> </li>
+										<li> 1.2 <a href="#" onclick="return changePDF('./assets/Social Identities A_D 1.2_BRS.pdf')"> Social Positions: Advantaged Disadvantaged (BRS) </a> </li>
+										<li> 1.2 <a href="#" onclick="return changePDF('./assets/Social Positions A_D  1.2_BRSiJC.pdf')">  Social Positions: Advantaged Disadvantaged (BRSiJC) </a> </li>
 										<li> 1.3 <a href="#" onclick="return changePDF('./assets/Intersecting Identities 1.3.pdf')"> Intersecting Identities  </a> </li>
 									</ul> 
 
@@ -125,7 +133,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 								<object id="pdf" data="./assets/Norms and Agreements 1.1 .pdf" type="application/pdf">
 								</object>
 							</div>
-							
 					</div>
 
 
@@ -180,6 +187,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 				<img src="./assets/butterfly.png" style="vertical-align: text-bottom; float: center;" height="30px"/>
 			</div>
 		</section>
+
+		<!-- PDF Viewer Clicker-->
+
 
 
 		<!-- Scripts -->
