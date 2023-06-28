@@ -120,7 +120,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	<!-- Header start -->
 		<!-- Header -->
 		<header id="header">
-			<a class="logo" href="../index.html">   Transform <span>For Equity</span> <img src="./assets/butterfly.png" style="vertical-align: top; float: left;" height="30px"/></a>
+			<a class="logo" href="../index.shtml">   Transform <span>For Equity</span> <img src="./assets/butterfly.png" style="vertical-align: top; float: left;" height="30px"/></a>
 			<nav>
 				<a href="#logBan">Menu</a>
 			</nav>
@@ -129,14 +129,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	<!-- Nav -->
 	<nav id="logBan">
 		<ul class="links">
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="../about.html">About</a></li>
-			<li><a href="../contactus.html">Contact Us</a></li>
-			<li><a href="../partners.html">Services</a></li>
-			<li><a href="../portfolio.html">Portfolio</a></li>
+			<li><a href="../index.shtml">Home</a></li>
+			<li><a href="../about.shtml">About</a></li>
+			<li><a href="../contactus.shtml">Contact Us</a></li>
+			<li><a href="../partners.shtml">Services</a></li>
+			<li><a href="../portfolio.shtml">Portfolio</a></li>
 			<li class="submenu"><a href="#">Social Media</a>
 				<ul>
-					<li><a href="portfolio.html"><i class="fas fa-newspaper" style="color: white; padding-right: 1px;"></i>&nbsp;Blogs</a></li>
+					<li><a href="portfolio.shtml"><i class="fas fa-newspaper" style="color: white; padding-right: 1px;"></i>&nbsp;Blogs</a></li>
 					<li><a href="http://www.linkedin.com/in/deitra-reiser-1aa71117"><i class="fab fa-linkedin" style="color: white; padding-right: 1px;"></i> LinkedIn</a></li>
 					<li><a href="https://www.instagram.com/transformforequity/"><i class="fab fa-instagram" style="color: white; padding-right: 1px;"></i>&nbsp;Instagram</a></li>
 				</ul>
@@ -209,6 +209,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	<script src="./js/main.js"></script>
 
 	<script type="text/javascript" src="./js/main.js"></script>
+	<script src="./js/main2.js"></script>
 	<script src="./js/modernizr.js"></script>
 	<script type="text/javascript" src="./js/jquery.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.js"></script>

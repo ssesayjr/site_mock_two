@@ -44,7 +44,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="../index.html">Transform <span>For Equity</span> <img src="./assets/butterfly.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
+				<a class="logo" href="../index.shtml">Transform <span>For Equity</span> <img src="./assets/butterfly.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
