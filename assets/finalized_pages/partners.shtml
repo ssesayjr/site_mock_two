@@ -1,0 +1,396 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> Services |Transform for Equity | An Antiracist Repair Group | Maryland</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="./cgi-bin/css/main.css" />
+		<link rel="shortcut icon" href="./images/butterfly.png">
+
+
+	</head>
+	<body class="is-preload">
+
+		
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.shtml">Transform <span>For Equity</span> <img src="images/butterfly.png" style="vertical-align: text-bottom; float: left;" height="30px"/></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="/cgi-bin/login.php">Login</a></li>
+					<li><a href="./index.shtml">Home</a></li>
+					<li><a href="about.shtml">About</a></li>
+					<li><a href="./contactus.shtml">Contact Us</a></li>
+					<li><a href="portfolio.shtml">Portfolio</a></li>
+					<li class="submenu"><a href="#">Social Media</a>
+						<ul>
+							<li><a href="portfolio.shtml"><i class="fas fa-newspaper" style="color: white; padding-right: 1px;"></i>&nbsp;Blogs</a></li>
+							<li><a href="http://www.linkedin.com/in/deitra-reiser-1aa71117"><i class="fab fa-linkedin" style="color: white; padding-right: 1px;"></i> LinkedIn</a></li>
+							<li><a href="https://www.instagram.com/transformforequity/"><i class="fab fa-instagram" style="color: white; padding-right: 1px;"></i>&nbsp;Instagram</a></li>
+						</ul>
+				</li>
+				</ul>
+			</nav>
+		<!-- Main -->
+		
+		<section >
+			<div id="bannerMini" style="text-align: center; overflow: hidden;">
+				<div class="svgMini">
+						 <object style="width: 100%;" data="./images/T4E_banner_v2.svg"></object> 
+				</div>
+						<div class="inner">
+							<header class="heading major">
+								<h1>Services</h1>
+							</header>
+						</div>
+		
+			</div>
+		</section>
+
+		<!-- BWB Banner Message -->
+			<section id ="build" style="z-index: 100; background-color: rgba(255,255,255,1);">
+				<div class="wrapper style1">
+					<div class="inner">
+					<div class="features">
+						<div class="feature">
+							<header class="heading">
+								<h2>Believe</h2>
+							</header>
+							<p>While growth requires discomfort, it also requires care and dignity.</p><br>
+							<ul class="actions special">
+								<li><a href="./about.shtml" class="button">Learn How</a></li>
+							</ul>
+						</div>
+						<div class="feature">
+							<header class="heading">
+								<h2>Work</h2>
+							</header>
+							<p>The work of being antiracist has a beginning, it does not have an end.</p><br>
+							<ul class="actions special">
+								<li><a href="./portfolio.shtml" class="button">Learn How</a></li>
+							</ul>
+						</div>
+						<div class="feature">
+							<header class="heading">
+								<h2>Build</h2>
+							</header>
+							<p>The ripples of antiracist change can positively impact entire communities.</p>
+							<ul class="actions special">
+								<li><a href="./partners.shtml#build" class="button">Learn How</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+
+			<!-- Content Information -->
+				<div style="z-index: 100; background-color: rgba(255,255,255,1); padding-bottom: 1%;padding-top: 2.5%;">
+					<div class="inner">
+						<header class="heading major">
+							<h2>How We Build</h2>
+						</header>
+						<div style="font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding-bottom: 2.5%;">
+							<p>
+								Transform for Equity is a consultancy that helps organizations achieve racial equity. They do this by providing customized facilitation and coaching support for systemic racial equity transformation. They have over 25 years of experience working with organizations in the public and private sector across the country. Their work is grounded in the belief that racial equity is essential for a just and thriving society.		
+							</p>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+			<!-- How We Partner Breakdown-->
+			<section style="padding-left: 7.5%;padding-right: 7.5%; padding-bottom: 5%; background-color: rgba(255,255,255,1);">
+				<div class="row gtr-uniform" style="padding-bottom: 2.5%;">
+					<div class="col-6 col-12-xsmall" style="padding-right: 2.5%;">
+						<section class="buildBlocks solid fa-handshake">
+							<h3>Strategic Collaboration</h3>
+							<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Promote courageous spaces to increase team connection and solve organizational challenges.
+							</p>
+						</section>
+					</div>
+
+					<div class="col-6 col-12-xsmall" style="padding-left: 2.5%;">
+						<section class="buildBlocks solid fa-briefcase">
+							<h3>Workshops</h3>
+							<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Tailor and target workshops to increase connection,  knowledge, and spur individual and institutional change.</p>
+						</section>
+					</div>
+				</div>
+
+				<div class="row gtr-uniform">
+					<div class="col-6 col-12-xsmall" style="padding-right: 2.5%;">
+						<section class="buildBlocks solid fa-sync">
+							<h3>Organizational Assessment</h3>
+							<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Determine where structural inequities exist and provide actionable and realistic strategies to improve diversity, equity, and belonging within the institution.</p>
+						</section>
+					</div>
+
+					<div class="col-6 col-12-xsmall" style="padding-left: 2.5%;">
+						<section class="buildBlocks solid fa-graduation-cap">
+							<h3>Coaching</h3>
+							<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Empower leaders to advance DEIB strategies throughout the organization.</p>
+						</section>
+					</div>
+				</div>
+			</section>
+
+
+		<!-- Who We Support-->
+
+		<div style="z-index: 100; background-color: rgba(255,255,255,1); padding-bottom: 1%;padding-top: 1%;">
+			<div class="inner">
+				<header class="heading major">
+					<h2>Who We Support</h2>
+				</header>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Different Entities Support-->
+		<section style="padding-left: 7.5%;padding-right: 7.5%; padding-bottom: 5%; background-color: rgba(255,255,255,1);">
+			<div class="row gtr-uniform" style="padding-bottom: 2.5%;">
+				<div class="col-6 col-12-xsmall" style="padding-right: 2.5%;">
+					<section class="buildBlocks brands fa-creative-commons-nc">
+						<h3>Non Profits</h3>
+						<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">In addition to enhancing  the mission and values of nonprofit organizations, employing DEIB practices  also increases  job performance and innovation. 
+						</p>
+					</section>
+				</div>
+
+				<div class="col-6 col-12-xsmall" style="padding-left: 2.5%;">
+					<section class="buildBlocks solid fa-mosque">
+						<h3>Religious Organizations</h3>
+						<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Spaces of belonging are a core value to many religious institutions where supporting a diverse membership is a moral and growth imperative. </p>
+					</section>
+				</div>
+			</div>
+
+			<div class="row gtr-uniform">
+				<div class="col-6 col-12-xsmall" style="padding-right: 2.5%;">
+					<section class="buildBlocks solid fa-building">
+						<h3>Corporations</h3>
+						<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Workplace diversity correlates with increased profits, better problem solving and greater creativity. </p>
+					</section>
+				</div>
+
+				<div class="col-6 col-12-xsmall" style="padding-left: 2.5%;">
+					<section class="buildBlocks solid fa-school">
+						<h3>Schools</h3>
+						<p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Preschool and school age children deserve and desire communities of equity and belonging.</p>
+					</section>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section class="wrapper style1">
+			<div class="inner">
+				<div>
+					<div>
+						<header class="heading">
+							<h2>Take Action</h2>
+						</header> 
+
+							<ul class="actions special">
+								<li><a href="./contactus.shtml" class="button large primary">Contact Us</a></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+			<!-- Partners -->
+			<section id="partners" style="background-color: rgba(255,255,255,1); padding-bottom: 1.5%;">
+				<div class="inner" style="background-color: rgba(255,255,255,1);">
+					<br>
+					<div>
+						<header class="heading major">
+							<h2>Our Partners</h2>
+						</header>
+						<div class="profiles">
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/avoda.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Montgomery County Public Schools</h3>
+								</header> -->
+							</div>
+
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/sadie.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Montgomery County Public Schools</h3>
+								</header> -->
+							</div>
+							
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/mcps.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Montgomery County Public Schools</h3>
+								</header> -->
+							</div>
+
+
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/psp.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Perry Street Prepatory</h3>
+								</header> -->
+							</div>
+
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/nasp.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Nat. Assoc. School psychologists</h3>
+								</header> -->
+							</div>
+
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/aic.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Adas Israel Congregation</h3>
+								</header> -->
+							</div>
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/uniformReform.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Union for Reform Judaism</h3>
+								</header> -->
+							</div>
+
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/shalomHartman.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Shalom Hartman Institute</h3>
+								</header> -->
+							</div>
+
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/milwaukeej.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Milwaukee JCC</h3>
+								</header> -->
+							</div>
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/nps.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>National Park Service </h3>
+								</header> -->
+							</div>
+							<div class="profile">
+								<div class="image">
+									<img src="images/client_logo/revised/recon_juda.png" alt="" />
+								</div>
+								<!-- <header class="heading">
+									<h3>Reconstructing Judaism</h3>
+								</header> -->
+							</div>
+
+					
+						<div class="profile">
+							<div class="image">
+								<img src="images/client_logo/revised/Sixth2.png" alt="" />
+							</div>
+							<!-- <header class="heading">
+								<h3>Sixth&i</h3>
+							</header> -->
+						</div>
+						<div class="profile">
+							<div class="image">
+								<img src="images/client_logo/revised/swt.png" alt="" />
+							</div>
+							<!-- <header class="heading">
+								<h3>Stephen Wise Temple</h3>
+							</header> -->
+						</div>
+						<div class="profile">
+							<div class="image">
+								<img src="images/client_logo/revised/truah_2.png" alt="" />
+							</div>
+							<!-- <header class="heading">
+								<h3>T'ruah</h3>
+							</header> -->
+						</div>
+						
+						<div class="profile">
+							<div class="image">
+								<img src="images/client_logo/revised/ncojw.png" alt="" />
+							</div>
+							<!-- <header class="heading">
+								<h3>National Council of Jewish Women</h3>
+							</header> -->
+						</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="http://www.linkedin.com/in/deitra-reiser-1aa71117" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.instagram.com/transformforequity/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://goo.gl/maps/wJLPuEocsqHvUBvR9" class="icon solid fa-map-marker-alt"><span class="label">Location</span></a></li>
+					<li><a href="tel:+16672021586" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
+					<li><a href="mailto:info@transformforequity.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				&copy; Transform For Equity - All rights reserved. 
+			</div>
+			<div>
+				<img src="./images/butterfly.png" style="vertical-align: text-bottom; float: center;" height="30px"/>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+		<script src="./cgi-bin/js/browser.min.js"></script>
+		<script src="./cgi-bin/js/breakpoints.min.js"></script>
+		<script src="./cgi-bin/js/util.js"></script>
+		<script src="./cgi-bin/js/main.js"></script>
+		<script src="./cgi-bin/js/script.js"></script>
+		<script src="./cgi-bin/js/main2.js"></script>
+
+	</body>
+<html>

@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+.uxa-form-group {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0.2rem 0.6rem rgba(50, 50, 50, 0.15);
+  }
+  
+  .form-group span {
+    color: red;
+  }
+  
+  .uxa-user-avatar {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+  }
+  .uxa-user-avatar img {
+    width: 150px;
+  }
