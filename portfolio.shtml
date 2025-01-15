@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Portfolio |Transform for Equity | An Antiracist Repair Group | Maryland</title>
+		<title>Portfolio | Transform for Equity | Maryland</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -68,7 +68,7 @@
 						<header class="heading">
 							<h2>Believe</h2>
 						</header>
-						<p>While growth requires discomfort, it also requires care and dignity.</p><br>
+						<p>Addressing structural inequities spurs positive change for everyone.</p><br>
 						<ul class="actions special">
 							<li><a href="./about.shtml#html" class="button">Learn How</a></li>
 						</ul>
@@ -77,7 +77,7 @@
 						<header class="heading">
 							<h2>Work</h2>
 						</header>
-						<p>The work of being antiracist has a beginning, it does not have an end.</p><br>
+						<p>Building and maintaining a positive organizational culture requires focused strategy and dedication.</p><br>
 						<ul class="actions special">
 							<li><a href="./portfolio.shtml" class="button">Learn How</a></li>
 						</ul>
@@ -86,7 +86,7 @@
 						<header class="heading">
 							<h2>Build</h2>
 						</header>
-						<p>The ripples of antiracist change can positively impact entire communities.</p>
+						<p>Transform for Equity will help you build an organization with deep belonging, psychological safety, and equity.</p>
 						<ul class="actions special">
 							<li><a href="./partners.shtml#build" class="button">Learn How</a></li>
 						</ul>
@@ -105,14 +105,15 @@
 						<h2>Our Work</h2>
 					</header>
 					<div class="spotlights"  >
-						<div class="spotlight" >
+						
+						<div class="spotlight">
 							<article>
-								<a href="#" class="image fit"><img src="./images/thumbnails/candles.png" alt="" /></a>
-								<div class="content" >
-									<h3>Creating AntiRacist Communities</h3>
-									<p>5 Things Synagogue Leaders Need to Know to Create an Antiracist Community</p> <br><br>
+								<a href="#" class="image fit"><img src="./images/thumbnails/ps1351.png" alt="" /></a>
+								<div class="content">
+									<h3>Power Station Podcast</h3> <br>
+									<p> Equitable belonging is needed for employees, CEOs and their organizations to thrive. </p><br>
 									<ul class="actions special">
-										<li><a href="https://www.linkedin.com/pulse/5-things-synagogue-leaders-need-know-create-community-deitra-reiser-?trk=public_profile_article_view" class="button primary">Read</a></li>
+										<li><a href="https://soundcloud.com/user-583017792/ps-1351_final" class="button primary">Listen</a></li>
 									</ul>
 								</div>
 							</article>
@@ -121,7 +122,7 @@
 							<article>
 								<a href="#" class="image fit"><img src="./images/thumbnails/discussion.png" alt="" /></a>
 								<div class="content">
-									<h3>DEIB Company Strategies</h3> <br>
+									<h3>Company Strategies</h3> <br>
 									<p>5 Things Executives Need to Know to Create Belonging and Equity</p><br><br>
 									<ul class="actions special">
 										<li><a href="https://www.linkedin.com/pulse/five-things-ceos-need-know-deib-deitra-reiser-" class="button primary">Read</a></li>
@@ -149,7 +150,7 @@
 								<a href="#" class="image fit"><img src="./images/thumbnails/hand_circle.png" alt="" /></a>
 								<div class="content">
 									<h3>"Did Something Happen"</h3>
-									<p> An indepth look how a synagogue began the work to become anti-racist.</p> <br><br>
+									<p> An indepth look at how a synagogue began the work of equitable belonging.</p> <br><br>
 									<ul class="actions special">
 										<li><a href="./portfolio/dsh.shtml" class="button primary">Read</a></li>
 									</ul>
@@ -173,7 +174,7 @@
 								<a href="#" class="image fit"><img src="./images/thumbnails/urj.png" alt="" /></a>
 								<div class="content">
 									<h3>Union for Reform Judaism</h3>
-									<p>Take the next transformational step for you and your organization towards antiracism.</p> <br>
+									<p>Take the next transformational step for you and your organization towards deep belonging and equity.</p> <br>
 									<ul class="actions special">
 										<li><a href="https://vimeo.com/426045696/33cc67e63f?fbclid=IwAR3ooFYjGBm40ik7iDDDb3OrxeH-MumUTlCHB8XK" class="button primary">Watch&nbsp; <i class="fas fa-video"></i></a></li>
 									</ul>
