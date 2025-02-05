@@ -30,7 +30,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="/cgi-bin/login.php" style="font-weight: 300;"><i class="fas fa-user" style="color: white; padding-right: 1px;"></i>&nbsp;Login</a></li>
-					<li><a href="about.shtml">About</a></li>
+					<li><a href="about_us.shtml">About</a></li>
 					<li><a href="./contactus.shtml">Contact Us</a></li>
 					<li><a href="partners.shtml">Services</a></li>
 					<li><a href="portfolio.shtml">Portfolio</a></li>
@@ -41,7 +41,7 @@
 							<li><a href="https://www.instagram.com/transformforequity/"><i class="fab fa-instagram" style="color: white; padding-right: 1px;"></i>&nbsp;Instagram</a></li>
 						</ul>
 				</li>
-				</ul>
+				</ul> 
 			</nav>
 
 		<!-- Banner -->
@@ -269,7 +269,7 @@
 					</header>
 					<p>Addressing structural inequities spurs positive change for everyone.</p><br>
 					<ul class="actions special">
-						<li><a href="./about.shtml#belief" class="button">Learn How</a></li>
+						<li><a href="./about_us.shtml#belief" class="button">Learn How</a></li>
 					</ul>
 				</div>
 				<div class="feature">
