@@ -186,13 +186,15 @@
 						<textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
 					</div>
 
+
+					<div style="justify-content:center; padding-top: 1%;align-items: center;margin: auto;">
+						<div class="g-recaptcha" data-sitekey="6LeHUc0qAAAAAGX9VZ1u-XJ73_xQJEt2X1Arhngp"></div>
+					</div>
+
 					<div class="field">
 						<ul class="actions special">
 							<li><button class="button primary" type="submit">Send Message</button></li>
 						</ul>
-					</div>
-					<div style="justify-content:center; padding-top: 1%;align-items: center;margin: auto;">
-						<div class="g-recaptcha" data-sitekey="6LeHUc0qAAAAAGX9VZ1u-XJ73_xQJEt2X1Arhngp"></div>
 					</div>
 				</form>
 
